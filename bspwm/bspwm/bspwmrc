@@ -14,5 +14,6 @@ bspc config gapless_monocle      true
 bspc rule -a Firefox desktop='^2'
 
 # Autostart
+feh --bg-fill .wallpapers/ghibli1.jpg &
 picom &
 polybar main &

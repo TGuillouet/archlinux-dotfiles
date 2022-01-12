@@ -126,6 +126,10 @@ element-text, element-icon {
     text-color:       inherit;
 }
 
+element-icon {
+    size: 20px;
+}
+
 button {
     padding: 6px;
     color: @foreground;
