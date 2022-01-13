@@ -6,26 +6,25 @@ window {
 	anchor: center;
 	transparency: "transparent";
 	background-color: @background;
-	border: 6px;
+	border: 1px;
 	border-color: @border;
 }
 
 prompt {
 	enabled: true;
 	padding: 10px;
-	background-color: @background-light;
+	background-color: @background-alt;
 	text-color: @text-color;
-	border: 2px 2px 2px;
 	border-radius: 0px;
-	border-color: @nord4;
 }
 
 textbox-prompt-colon {
 	expand: false;
-	str: " System ";
-	background-color: @nord3;
-	text-color: @background;
-	padding: 12px 10px 0px 10px;
+	str: " Current user : ";
+	background-color: @background-alt;
+	text-color: @text-color;
+	padding: 10px 10px 0px 10px;
+	position: center;
 }
 
 inputbar {
@@ -46,7 +45,7 @@ listview {
 	margin: 20px 0px 0px 0px;
 	columns: 6;
 	lines: 1;
-	spacing: 100px;
+	spacing: 60px;
 	cycle: true;
 	dynamic: true;
 	layout: vertical;

@@ -12,11 +12,11 @@ session_parts=($session)
 
 options="$shutdown\n$reboot\n$lock\n$logout"
 
-choice="$(echo -e "$options" | $rofi_command -dmenu)"
+choice="$(echo -e "$options" | $rofi_command -dmenu -p "$user")"
 
 case $choice in
 	$shutdown)
-		systemctl shutdown
+		shutdown now
 	;;
 	$reboot)
 		systemctl reboot

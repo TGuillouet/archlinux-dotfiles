@@ -28,6 +28,7 @@
 	transparent: rgba(46,52,64,0);
 
 	background: @nord0;
+	background-alt: @nord3;
 	background-light: @nord4;
 
 	// Buttons
@@ -40,7 +41,7 @@
 
 	// Text colors
 	text-color: @nord4;
-	text-color-light: @nord4;
+	text-color-light: @nord5;
 
 	
 }
