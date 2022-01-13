@@ -1,3 +1,5 @@
+#!/bin/bash
+
 rofi_command="rofi -theme ~/.config/rofi/powermenu.rasi"
 
 shutdown=""
