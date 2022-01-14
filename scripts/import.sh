@@ -1,4 +1,4 @@
-mkdir -p ~/.config/{bspwm,sxhkd,polybar,rofi,fish,ncmpcpp,mpd}
+mkdir -p ~/.config/{bspwm,sxhkd,polybar,rofi,fish,ncmpcpp,mpd,kitty}
 
 cp -rf  ~/.dotfiles/bspwm/ ~/.config/bspwm/
 cp -rf ~/.dotfiles/sxhkd/ ~/.config/sxhkd/
@@ -7,4 +7,5 @@ cp -rf ~/.dotfiles/rofi/ ~/.config/rofi/
 cp -rf ~/.dotfiles/fish/ ~/.config/fish/
 cp -rf ~/.dotfiles/ncmpcpp/ ~/.config/ncmpcpp/ 
 cp -rf ~/.dotfiles/mpd/ ~/.config/mpd/ 
+cp -rf ~/.dotfiles/kitty/ ~/.config/kitty/ 
 
