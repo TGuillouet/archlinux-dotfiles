@@ -18,6 +18,9 @@
 - exa
 - starship
 
+# Installation
+
+
 # Credits
 
 Nord theme from [undiabler/nord-rofi-theme](https://github.com/undiabler/nord-rofi-theme)
