@@ -17,6 +17,9 @@
 - lazygit
 - exa
 - starship
+- feh
+- picom
+- kitty
 
 # Installation
 

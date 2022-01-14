@@ -1,11 +1,11 @@
 mkdir -p ~/.config/{bspwm,sxhkd,polybar,rofi,fish,ncmpcpp,mpd,kitty}
 
-cp -rf  ~/.dotfiles/bspwm/ ~/.config/bspwm/
-cp -rf ~/.dotfiles/sxhkd/ ~/.config/sxhkd/
-cp -rf ~/.dotfiles/polybar/ ~/.config/polybar/
-cp -rf ~/.dotfiles/rofi/ ~/.config/rofi/
-cp -rf ~/.dotfiles/fish/ ~/.config/fish/
-cp -rf ~/.dotfiles/ncmpcpp/ ~/.config/ncmpcpp/ 
-cp -rf ~/.dotfiles/mpd/ ~/.config/mpd/ 
-cp -rf ~/.dotfiles/kitty/ ~/.config/kitty/ 
+cp -rf  ~/.dotfiles/bspwm/ ~/.config/
+cp -rf ~/.dotfiles/sxhkd/ ~/.config/
+cp -rf ~/.dotfiles/polybar/ ~/.config/
+cp -rf ~/.dotfiles/rofi/ ~/.config/
+cp -rf ~/.dotfiles/fish/ ~/.config/
+cp -rf ~/.dotfiles/ncmpcpp/ ~/.config/ 
+cp -rf ~/.dotfiles/kitty/ ~/.config/
+cp -rf ~/.dotfiles/mpd/ ~/.config/ 
 
