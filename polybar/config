@@ -33,7 +33,8 @@ foreground = ${colors.foreground}
 
 font-0 = Cantarell:size=13;3
 font-1 = "Font Awesome 5 Free Solid:style=Solid;pixelsize=25;3"
-font-2 = unifont:fontformat=truetype:size=8:antialias=false;0
+font-2 = "icomoon\-feather:size=10;2"
+font-3 = unifont:fontformat=truetype:size=8:antialias=false;0
 
 offset-x = 0.5%
 offset-y = 10
@@ -46,7 +47,7 @@ module-margin-right = 2
 
 modules-left = date
 modules-center = bspwm
-modules-right = alsa eth wlan battery custompowermenu
+modules-right = wifi alsa eth wlan battery custompowermenu
 
 tray-detached = false
 tray-position = right

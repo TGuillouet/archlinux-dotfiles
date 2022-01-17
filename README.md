@@ -5,6 +5,7 @@
 - sxhkd
 - polybar
 - ttf-font-awesome
+- ttf-icomoon-feather (AUR)
 - cantarell-fonts
 - fish
 - peco
